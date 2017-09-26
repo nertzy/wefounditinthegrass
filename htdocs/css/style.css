@@ -1,0 +1,35 @@
+body{
+  background:#e8e8e8 url(/images/grass.jpg) left top repeat;
+  margin:0;
+  padding:0;
+  font-family:"Helvetica Neue", Helvetica, sans-serif;
+}
+
+div.content{
+  margin:20px auto 100px;
+  padding:20px;
+  background:#fff;
+  width:600px;
+}
+
+h1{
+  text-align:center;
+  margin:0 0 20px;
+  font-size:250%;
+  border-bottom:5px solid #f8f8f8;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+ul li{
+  margin:0 0 20px;
+  padding:0;
+  list-style:none;
+}
+
+ul li p{
+  margin:0;
+}

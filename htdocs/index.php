@@ -13,7 +13,7 @@
 
     <h1>We found it in the grass.</h1>
 
-  <?
+  <?php
   require_once('magpierss/rss_fetch.inc');
   $url = "http://api.search.yahoo.com/WebSearchService/rss/webSearch.xml?appid=yahoosearchwebrss&query=%22we+found+it+in+the+grass%22&adult_ok=1";
   $rss = fetch_rss( $url );
